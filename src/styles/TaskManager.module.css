@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #f2f2f2;
+}
+a {
+    color: #f2f2f2;
+}
+.btn {
+    padding:7px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    color: #000000;
+    cursor: pointer;
+    margin: 0 3px;
+}
+.mainDiv {
+    min-height: 100vh;
+    background-color: #000112d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textField {
+    padding:7px 10px;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    margin: 5px;
+    color: #000000;
+}
+.partition {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.secPartition {
+    width: 25%;
+}
+.mainPartition {
+    width: 50%;
+    justify-content: flex-start;
+}
+.tasksHeading,.mainHeading {
+    margin: 10px 0;
+}
+
+
+.eachTask {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    margin: 5px 0;
+    text-align: center;
+}
+.deleteBtn {
+    background-color: #f2f2f2;
+    color: #000000;
+    float: right;
+    border: none;
+    padding: 3px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
